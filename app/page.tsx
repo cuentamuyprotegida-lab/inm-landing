@@ -1,5 +1,6 @@
 "use client";
 
+import WhatsAppWidget from "./components/WhatsAppWidget";
 import {
   MessageCircle,
   Calendar,
@@ -93,11 +94,11 @@ function Hero() {
               Quiero mi asistente
             </a>
             <a
-              href="#how"
+              href="/demo"
               className="border border-slate-700 hover:border-slate-500 text-slate-300 font-semibold px-8 py-4 rounded-full transition flex items-center justify-center gap-2"
             >
-              Ver como funciona
-              <ArrowRight size={16} />
+              <Bot size={18} />
+              Probar demo en vivo
             </a>
           </div>
           {/* Social proof */}
@@ -809,6 +810,7 @@ export default function Home() {
       <FAQ />
       <FinalCTA />
       <Footer />
+      <WhatsAppWidget />
     </main>
   );
 }
