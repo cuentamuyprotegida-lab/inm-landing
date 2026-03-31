@@ -40,6 +40,9 @@ function Nav() {
           <a href="#pricing" className="hover:text-white transition">
             Precios
           </a>
+          <a href="/calculadora" className="hover:text-white transition">
+            Calculadora ROI
+          </a>
           <a href="#faq" className="hover:text-white transition">
             FAQ
           </a>
